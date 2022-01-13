@@ -1,0 +1,8 @@
+#Nginx configuration for multiple remote servers for one server
+- name: Update Nginx
+  template:
+      src: site.conf.j2
+      dest: /etc/nginx/sites-available/default.conf
+      owner: root
+      group: root
+      mode: 0755

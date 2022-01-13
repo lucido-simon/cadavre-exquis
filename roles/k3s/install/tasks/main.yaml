@@ -1,0 +1,3 @@
+- name: This command will change the working directory to somedir/
+  ansible.builtin.shell:
+    cmd: curl -sfL https://get.k3s.io | sh -

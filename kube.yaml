@@ -1,0 +1,9 @@
+---
+# Install k3s
+- hosts: web
+  become: yes
+  become_user: root
+  roles:
+    - k3s
+    - helm
+
