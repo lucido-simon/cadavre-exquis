@@ -7,4 +7,5 @@
     - k3s
     - helm
     - git
+    - deploy
 

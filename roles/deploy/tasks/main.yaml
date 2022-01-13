@@ -1,0 +1,4 @@
+- name: Install app
+  ansible.builtin.shell:
+    cmd: helm --kubeconfig /etc/rancher/k3s/k3s.yaml install cloud-cadavre-exquis ./helm/
+    chdir: /src
