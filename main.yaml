@@ -6,4 +6,5 @@
   roles:
     - k3s
     - helm
+    - git
 
